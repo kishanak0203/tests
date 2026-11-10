@@ -32,7 +32,7 @@ const checkbox=[
     await page.locator(result).check();
     if(await page.locator(result).isChecked()){
     await page.locator(result).uncheck();
-    await page.waitForTimeout(3000);
+    await page.waitForTimeout(2000);
    }
  }
  });
